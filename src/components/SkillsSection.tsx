@@ -1,5 +1,4 @@
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
-import { SparklesCore } from "./ui/sparkles";
 
 function SkillsSection() {
   return (
