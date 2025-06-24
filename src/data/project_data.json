@@ -1,0 +1,64 @@
+{
+  "Projects": [
+    {
+      "id": 1,
+      "projectName": "Portfolio Website",
+      "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
+      "techStack": ["React", "Tailwind CSS", "Framer Motion"],
+      "description": "A sleek personal portfolio to showcase projects, skills, and contact info.",
+      "githubLink": "https://github.com/harshit/portfolio",
+      "liveLink": "https://harshit.dev",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "projectName": "E-commerce Store",
+      "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
+      "techStack": ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      "description": "Full-stack online store with product listing, cart, and payment integration.",
+      "githubLink": "https://github.com/harshit/ecommerce-store",
+      "liveLink": "https://shopwithharshit.vercel.app",
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "projectName": "Chat App",
+      "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
+      "techStack": ["React", "Firebase", "Context API"],
+      "description": "A real-time chat application supporting one-to-one messaging.",
+      "githubLink": "https://github.com/harshit/chatapp",
+      "liveLink": "https://harshitchat.netlify.app",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "projectName": "Weather App",
+      "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
+      "techStack": ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+      "description": "A simple app that fetches and displays real-time weather info by city.",
+      "githubLink": "https://github.com/harshit/weather-app",
+      "liveLink": "https://weatherbyharshit.netlify.app",
+      "isFeatured": true
+    },
+    {
+      "id": 5,
+      "projectName": "Blog Platform",
+      "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
+      "techStack": ["Next.js", "Sanity CMS", "Tailwind CSS"],
+      "description": "A modern blog platform with dynamic content and SEO optimization.",
+      "githubLink": "https://github.com/harshit/blog-platform",
+      "liveLink": "https://harshitblogs.vercel.app",
+      "isFeatured": true
+    },
+    {
+      "id": 6,
+      "projectName": "AI Image Generator",
+      "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
+      "techStack": ["React", "OpenAI API", "Express", "Node.js"],
+      "description": "A tool that generates images from text prompts using AI.",
+      "githubLink": "https://github.com/harshit/ai-image-generator",
+      "liveLink": "https://harshitai.vercel.app",
+      "isFeatured": true
+    }
+  ]
+}
