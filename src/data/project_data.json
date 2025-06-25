@@ -2,63 +2,54 @@
   "Projects": [
     {
       "id": 1,
-      "projectName": "Portfolio Website",
+      "projectName": "Mentors Connect",
       "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
-      "techStack": ["React", "Tailwind CSS", "Framer Motion"],
-      "description": "A sleek personal portfolio to showcase projects, skills, and contact info.",
-      "githubLink": "https://github.com/harshit/portfolio",
-      "liveLink": "https://harshit.dev",
+      "TechUsed": ["React", "Node.js", "Express.js" , "MongoDB" , "Socket.io" , "Gemini Api" , "Calandely Api" ],
+      "description": "Mentors Connect is a platform designed to bridge the gap between aspiring learners and experienced mentors.",
+      "githubLink": "https://github.com/harshitneversettle/Mentors_connect",
+      "LiveOn": "Not deployed yet , will deploy by the end of July",
       "isFeatured": true
     },
     {
       "id": 2,
       "projectName": "E-commerce Store",
       "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
-      "techStack": ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      "TechUsed": ["React.js", "MongoDB", "Node.js", "Tailwind CSS" , "Express.js"],
       "description": "Full-stack online store with product listing, cart, and payment integration.",
-      "githubLink": "https://github.com/harshit/ecommerce-store",
-      "liveLink": "https://shopwithharshit.vercel.app",
+      "githubLink": "https://github.com/harshitneversettle/Full_stack_project",
+      "LiveOn": "Not deployed yet , will deploy by the end of July",
       "isFeatured": true
     },
     {
       "id": 3,
-      "projectName": "Chat App",
+      "projectName": "Portfolio",
       "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
-      "techStack": ["React", "Firebase", "Context API"],
-      "description": "A real-time chat application supporting one-to-one messaging.",
+      "TechUsed": ["Next.js" , "MongoDB" , "ShadCn"],
+      "description": "My personal portfolio for showcasing my projects.",
       "githubLink": "https://github.com/harshit/chatapp",
-      "liveLink": "https://harshitchat.netlify.app",
+      "LiveOn": "https://github.com/harshitneversettle/Portfolio",
       "isFeatured": true
     },
     {
       "id": 4,
-      "projectName": "Weather App",
+      "projectName": "Moodle Quiz automation",
       "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
-      "techStack": ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-      "description": "A simple app that fetches and displays real-time weather info by city.",
-      "githubLink": "https://github.com/harshit/weather-app",
-      "liveLink": "https://weatherbyharshit.netlify.app",
+      "TechUsed": ["Selenium", "Bs4", "Python", "HuggingFace api"],
+      "description": "Automated Moodle Quizzes — Enter your credentials and quiz URL, then roll up your sleeves… or don’t! The script will handle the quiz for you..",
+      "githubLink": "https://github.com/harshitneversettle/Moodle-automation",
+      "LiveOn": "Script’s ready. Quizzes? Missing => Mood: 😤 , Now ? => waiting for new sem",
       "isFeatured": true
     },
     {
       "id": 5,
-      "projectName": "Blog Platform",
+      "projectName": "food menu app",
       "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
-      "techStack": ["Next.js", "Sanity CMS", "Tailwind CSS"],
-      "description": "A modern blog platform with dynamic content and SEO optimization.",
-      "githubLink": "https://github.com/harshit/blog-platform",
-      "liveLink": "https://harshitblogs.vercel.app",
-      "isFeatured": true
-    },
-    {
-      "id": 6,
-      "projectName": "AI Image Generator",
-      "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
-      "techStack": ["React", "OpenAI API", "Express", "Node.js"],
-      "description": "A tool that generates images from text prompts using AI.",
-      "githubLink": "https://github.com/harshit/ai-image-generator",
-      "liveLink": "https://harshitai.vercel.app",
+      "TechUsed": ["Html", "Css", "JavaScript"],
+      "description": "simple project for practice how to handel a api",
+      "githubLink": "https://github.com/harshitneversettle/Restaurant_website",
+      "LiveOn": "",
       "isFeatured": true
     }
+    
   ]
 }

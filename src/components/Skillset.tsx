@@ -13,12 +13,15 @@ const skillset = () => {
           Showcasing My <ContainerTextFlip words={["Craft", "Work"]} />
         </div>
       </div>
-      <div className="grid mt-10 h-full">
+      <div className="grid mt-10 h-full ">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-auto px-4">
           {FeaturedProjects.map((i) =>
             i.isFeatured ? (
-              <BackgroundGradient key={i.id} className="rounded-[22px] max-w-sm w-full p-4 sm:p-10 bg-white dark:bg-zinc-900">
-                <div  className="w-full min-h-110">
+              <BackgroundGradient
+                key={i.id}
+                className="rounded-[22px] max-w-sm w-full p-4 sm:p-10 bg-white dark:bg-zinc-900"
+              >
+                <div className="w-full min-h-120">
                   <img
                     src={i.projectImage}
                     alt="projectImage"
@@ -27,17 +30,27 @@ const skillset = () => {
                   <p className="text-center mb-3 font-semibold">
                     {i.projectName}
                   </p>
+                  <div>
+                    <div className="handel flex gap-2 flex-wrap mb-2">
+                      <span className="font-bold">Tech used :</span>{i.TechUsed.map((j, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className="badge badge-outline badge-accent   "
+                          >
+                            {j}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
                   <p>
-                    <span className="font-bold">Tech used :</span>{" "}
-                    <span>{i.techStack}</span>{" "}
-                  </p>
-                  <p>
-                    <span className="font-bold">Description :</span>{" "}
+                    <span className="font-bold mb-5">Description :</span>{" "}
                     <span>{i.description}</span>
                   </p>
                   <p>
-                    <span className="font-bold">Live on :</span>{" "}
-                    <span>{i.liveLink}</span>
+                    <span className="font-bold ">Live on :</span>{" "}
+                    <span>{i.LiveOn}</span>
                   </p>
                   <div className="  ">
                     <Link href={i.githubLink}>
