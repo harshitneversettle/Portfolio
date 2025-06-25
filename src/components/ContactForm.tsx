@@ -11,6 +11,7 @@ export function ContactForm() {
     e.preventDefault();
     console.log("Form submitted");
   };
+  
   return (
     <>
       <div className="flex gap-2 ">
