@@ -1,7 +1,5 @@
 import MovinButton from "./MovinButton";
-import { Spotlight } from "./ui/Spotlight";
 import { ColourfulText } from "@/components/ui/colourful-text";
-import { motion } from "motion/react";
 
 const HeroSection = () => {
   return (

@@ -9,16 +9,16 @@ const skillset = () => {
     <div className="w-full mt-50">
       <div className="text-center ">
         <h1 className="text-2xl text-green-300 ">See my Projects</h1>
-        <p className="text-4xl mt-2 ">
+        <div className="text-4xl mt-2 ">
           Showcasing My <ContainerTextFlip words={["Craft", "Work"]} />
-        </p>
+        </div>
       </div>
       <div className="grid mt-10 h-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-auto px-4">
           {FeaturedProjects.map((i) =>
             i.isFeatured ? (
-              <BackgroundGradient className="rounded-[22px] max-w-sm w-full p-4 sm:p-10 bg-white dark:bg-zinc-900">
-                <div key={i.id} className="w-full min-h-110">
+              <BackgroundGradient key={i.id} className="rounded-[22px] max-w-sm w-full p-4 sm:p-10 bg-white dark:bg-zinc-900">
+                <div  className="w-full min-h-110">
                   <img
                     src={i.projectImage}
                     alt="projectImage"
