@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Harshit's Portfolio
 
-## Getting Started
+A modern, interactive, and fully responsive developer portfolio built with **Next.js**, **Tailwind CSS**, and a range of UI libraries like **ShadCN**, **DaisyUI**, and **Aternity UI**. This portfolio showcases featured projects, skills, and creative UI elements — designed to make a bold first impression.
 
-First, run the development server:
+---
+
+## 🔗 Live Demo
+
+👉 [View Live Portfolio](https://harshitneversettle-portfolio.vercel.app/)  
+---
+
+## 📁 Features
+
+- 🌐 **Modern Tech Stack**: Built with Next.js, Tailwind CSS, and TypeScript.
+- 🎨 **Beautiful UI**: Styled using DaisyUI, ShadCN, and Aternity UI components.
+- 🧠 **Project Showcase**: Displays featured projects with tech stack, description, live links, and GitHub.
+- 📦 **Dynamic Data**: Project data managed via JSON for easy scalability.
+- 💡 **Animations**: Smooth transitions using Framer Motion and other animation libraries.
+- 🌍 **3D Globe Component**: Interactive globe powered by Three.js and Three-Globe.
+- 💬 **Reusable Components**: Built with modular design and reusable components for easy maintenance.
+- 🧪 **ESLint & TypeScript**: Ensures consistent code quality and safety.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React.js (Next.js), TypeScript
+- **Styling**: Tailwind CSS, DaisyUI, ShadCN, Aternity UI
+- **Icons**: Tabler Icons, FontAwesome
+- **Deployment**: Vercel
+
+---
+
+## 📦 Installation & Setup
 
 ```bash
+git clone https://github.com/harshitneversettle/Portfolio.git
+cd Portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
