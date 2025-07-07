@@ -50,7 +50,7 @@ const skillset = () => {
                   </p>
                   <p>
                     <span className="font-bold ">Live on :</span>{" "}
-                    <span>{i.LiveOn}</span>
+                    <Link href = {i.LiveOn} >click to view</Link>
                   </p>
                   <div className="  ">
                     <Link href={i.githubLink}>
