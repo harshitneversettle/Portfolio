@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "projectName": "Seven-spices a E-commerce restro app",
+      "projectName": "Seven-spices (e-commerce) ",
       "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
       "TechUsed": ["React.js", "MongoDB", "Node.js", "Tailwind CSS" , "Express.js"],
       "description": "Full-stack online store with product listing, cart, and payment integration.",
