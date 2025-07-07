@@ -21,13 +21,13 @@ const skillset = () => {
                 key={i.id}
                 className="rounded-[22px] max-w-sm w-full p-4 sm:p-10 bg-white dark:bg-zinc-900"
               >
-                <div className="w-full min-h-120">
+                <div className="w-full min-h-120 ">
                   <img
                     src={i.projectImage}
                     alt="projectImage"
                     className="rounded-[22px] mb-3"
                   />
-                  <p className="text-center mb-3 font-semibold">
+                  <p className="text-center mb-3 font-semibold pt-1 ">
                     {i.projectName}
                   </p>
                   <div>
@@ -50,7 +50,7 @@ const skillset = () => {
                   </p>
                   <p>
                     <span className="font-bold ">Live on :</span>{" "}
-                    <Link href = {i.LiveOn} >click to view</Link>
+                    <Link href = {i.LiveOn} className="text-blue-500 " >click to view</Link>
                   </p>
                   <div className="  ">
                     <Link href={i.githubLink}>
