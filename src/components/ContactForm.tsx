@@ -11,11 +11,11 @@ export function ContactForm() {
     e.preventDefault();
     console.log("Form submitted");
   };
-  
+
   return (
     <>
-      <div className="flex gap-2 ">
-        <div className="shadow-input ml-50 w-full max-w-md rounded-none bg-white mx-auto p-4 md:rounded-2xl md:p-8 dark:bg-black">
+      <div className="flex flex-col lg:flex-row gap-6 w-full px-4">
+        <div className="shadow-input w-full lg:max-w-md rounded-none bg-white mx-auto p-4 md:rounded-2xl md:p-8 dark:bg-black">
           <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200">
             Contact Me
           </h2>
@@ -83,11 +83,10 @@ export function ContactForm() {
                 </span>
                 <BottomGradient />
               </button>
-              
             </div>
           </form>
         </div>
-        <div className="w-full h-full mt-[-25]">
+        <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-auto">
           <GlobeModel />
         </div>
       </div>
