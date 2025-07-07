@@ -10,27 +10,27 @@ export default function Navbar() {
   const [active, setActive] = useState<string | null>(null);
   return (
     <>
-      <div className="flex justify-between items-center w-full">
-        <div className="w-[23rem] h-[10rem] relative mt-3 ">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4">
+        <div className="w-full md:w-[23rem] h-[10rem] relative mt-5 md:mt-3 ">
           {" "}
           <div className="   transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
             <h1 className="  md:text-4xl text-4xl lg:text-6xl font-bold text-center text-white relative z-20">
               Portfolio
             </h1>
-            <div className="w-[32rem] h-40 relative">
-              {/* Gradients */}
+            <div className="w-full sm:w-[28rem] md:w-[32rem] h-40 relative">
+              
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
               <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
               <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
               <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
 
-              {/* Core component */}
+          
               <SparklesCore
                 background="#000000"
                 minSize={0.4}
                 maxSize={1}
                 particleDensity={1200}
-                className="h-[7rem] ml-5 w-[32rem]  "
+                className="h-[7rem] ml-5 w-full sm:w-[28rem] md:w-[32rem]"
                 particleColor="#FFFFFF"
               />
 
@@ -44,7 +44,7 @@ export default function Navbar() {
           fill="white"
         />
         <div
-          className={cn(" w-[20rem] sm:max-w-2xl relative mr-5 mt-[-55px] ")}
+          className={cn("w-full md:w-[20rem] sm:max-w-2xl relative mt-5 md:mt-[-55px] md:mr-5")}
         >
           <Menu setActive={setActive}>
             <MenuItem setActive={setActive} active={active} item="Contacts">
