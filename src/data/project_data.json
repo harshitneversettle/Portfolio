@@ -7,17 +7,17 @@
       "TechUsed": ["React", "Node.js", "Express.js" , "MongoDB" , "Socket.io" , "Gemini Api" , "Calandely Api" ],
       "description": "Mentors Connect is a platform designed to bridge the gap between aspiring learners and experienced mentors.",
       "githubLink": "https://github.com/harshitneversettle/Mentors_connect",
-      "LiveOn": "Not deployed yet , will deploy by the end of July",
+      "LiveOn": "https://mentors-connect.vercel.app",
       "isFeatured": true
     },
     {
       "id": 2,
-      "projectName": "E-commerce Store",
+      "projectName": "Seven-spices a E-commerce restro app",
       "projectImage": "https://img.freepik.com/premium-photo/hip-cat-sunglasses-radiating-coolness-against-vibrant-blue-backdrop_1294860-39775.jpg?w=1380",
       "TechUsed": ["React.js", "MongoDB", "Node.js", "Tailwind CSS" , "Express.js"],
       "description": "Full-stack online store with product listing, cart, and payment integration.",
       "githubLink": "https://github.com/harshitneversettle/Full_stack_project",
-      "LiveOn": "Not deployed yet , will deploy by the end of July",
+      "LiveOn": "https://seven-spices.vercel.app/",
       "isFeatured": true
     },
     {
