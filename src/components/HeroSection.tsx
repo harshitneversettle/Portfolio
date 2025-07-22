@@ -1,5 +1,7 @@
 import MovinButton from "./MovinButton";
 import { ColourfulText } from "@/components/ui/colourful-text";
+import CountUp from "./ui/CountUp";
+import Carousel from "./ui/Coffee_carousal";
 
 const HeroSection = () => {
   return (
@@ -22,6 +24,38 @@ const HeroSection = () => {
 
         <div className="mt-10 text-lg sm:text-xl md:text-2xl">
           <MovinButton />
+        </div>
+        <div className="flex gap-4 mt-15 ">
+          <div className=" flex flex-col border-1 border-zinc-200 p-4 rounded-4xl ">
+            <span className="text-5xl text-center">
+              <CountUp
+                from={0}
+                to={96}
+                separator=","
+                direction="up"
+                duration={1}
+                className="count-up-text"
+              />
+            </span>
+            <span className="text-zinc-600">
+              Litres of coffee consumed this year
+            </span>
+          </div>
+          <div className=" flex flex-col border-1 border-zinc-200 p-4 rounded-4xl ">
+            <span className="text-5xl text-center">
+              <CountUp
+                from={0}
+                to={6}
+                separator=","
+                direction="up"
+                duration={1}
+                className="count-up-text"
+              />+
+            </span>
+            <span className="text-zinc-600">
+              Major projects completed
+            </span>
+          </div>
         </div>
       </div>
     </div>
