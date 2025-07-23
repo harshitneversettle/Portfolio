@@ -1,5 +1,10 @@
 import { useEffect, useState, useRef } from "react";
-import { motion, PanInfo, useMotionValue, useTransform , Transition } from "framer-motion";
+import {
+  motion,
+  PanInfo,
+  useMotionValue,
+  useTransform,
+} from "framer-motion";
 import React, { JSX } from "react";
 
 // replace icons with your own if needed
@@ -186,12 +191,18 @@ export default function Carousel({
           width: itemWidth,
           gap: `${GAP}px`,
           perspective: 1000,
-          perspectiveOrigin: `${currentIndex * trackItemOffset + itemWidth / 2}px 50%`,
+          perspectiveOrigin: `${
+            currentIndex * trackItemOffset + itemWidth / 2
+          }px 50%`,
           x,
         }}
         onDragEnd={handleDragEnd}
         animate={{ x: -(currentIndex * trackItemOffset) }}
-        transition={effectiveTransition}
+        transition={{
+          type: "spring", // string literal ✅
+          stiffness: 300,
+          damping: 20,
+        }}
         onAnimationComplete={handleAnimationComplete}
       >
         {carouselItems.map((item, index) => {
@@ -216,7 +227,11 @@ export default function Carousel({
                 rotateY: rotateY,
                 ...(round && { borderRadius: "50%" }),
               }}
-              transition={effectiveTransition}
+              transition={{
+                type: "spring", // string literal ✅
+                stiffness: 300,
+                damping: 20,
+              }}
             >
               <div className={`${round ? "p-0 m-0" : "mb-4 p-5"}`}>
                 <span className="flex h-[28px] w-[28px] items-center justify-center rounded-full bg-[#060010]">
@@ -248,8 +263,8 @@ export default function Carousel({
                     ? "bg-white"
                     : "bg-[#333333]"
                   : round
-                    ? "bg-[#555]"
-                    : "bg-[rgba(51,51,51,0.4)]"
+                  ? "bg-[#555]"
+                  : "bg-[rgba(51,51,51,0.4)]"
               }`}
               animate={{
                 scale: currentIndex % items.length === index ? 1.2 : 1,
