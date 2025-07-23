@@ -4,6 +4,7 @@ import {
   PanInfo,
   useMotionValue,
   useTransform,
+  Transition 
 } from "framer-motion";
 import React, { JSX } from "react";
 
@@ -31,6 +32,7 @@ export interface CarouselProps {
   loop?: boolean;
   round?: boolean;
 }
+const transition: Transition = { type: "spring", stiffness: 300, damping: 20 };
 
 const DEFAULT_ITEMS: CarouselItem[] = [
   {
@@ -198,11 +200,7 @@ export default function Carousel({
         }}
         onDragEnd={handleDragEnd}
         animate={{ x: -(currentIndex * trackItemOffset) }}
-        transition={{
-          type: "spring", // string literal ✅
-          stiffness: 300,
-          damping: 20,
-        }}
+        transition={transition}
         onAnimationComplete={handleAnimationComplete}
       >
         {carouselItems.map((item, index) => {
@@ -227,11 +225,7 @@ export default function Carousel({
                 rotateY: rotateY,
                 ...(round && { borderRadius: "50%" }),
               }}
-              transition={{
-                type: "spring", // string literal ✅
-                stiffness: 300,
-                damping: 20,
-              }}
+              transition={transition}
             >
               <div className={`${round ? "p-0 m-0" : "mb-4 p-5"}`}>
                 <span className="flex h-[28px] w-[28px] items-center justify-center rounded-full bg-[#060010]">
