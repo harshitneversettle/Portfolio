@@ -135,7 +135,7 @@ export default function Navbar() {
             </MenuItem>
             <MenuItem setActive={setActive} active={active} item="Resume">
               <Link
-                href="https://drive.google.com/file/d/1GEyc6kn-atT-UcYluRAsWsZRpg6wyK5_/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1x3NsIdA_r6XAJbV6OLFkbF67qZVY0HJY/view?usp=sharinghttps://drive.google.com/file/d/1x3NsIdA_r6XAJbV6OLFkbF67qZVY0HJY/view?usp=sharing"
                 target="_blank"
               >
                 Download resume{" "}
