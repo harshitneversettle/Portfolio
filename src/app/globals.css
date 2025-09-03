@@ -3,10 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @theme inline {
-  --shadow-input:
-    0px 2px 3px -1px rgba(0, 0, 0, 0.1),
+  --shadow-input: 0px 2px 3px -1px rgba(0, 0, 0, 0.1),
     0px 1px 0px 0px rgba(25, 28, 33, 0.02),
     0px 0px 0px 1px rgba(25, 28, 33, 0.08);
 }
@@ -25,12 +24,13 @@
     --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
     --animate-scroll: scroll var(--animation-duration, 40s)
       var(--animation-direction, forwards) linear infinite;
-  @keyframes scroll {
-    to {
-      transform: translate(calc(-50% - 0.5rem));
+    @keyframes scroll {
+      to {
+        transform: translate(calc(-50% - 0.5rem));
+      }
     }
   }
-}}
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -54,4 +54,11 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.zoom-wrapper {
+  transform: scale(1.2);
+  transform-origin: top left;
+  width: 80%;
+  height: 80%;
 }
