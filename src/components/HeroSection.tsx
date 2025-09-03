@@ -1,7 +1,6 @@
 import MovinButton from "./MovinButton";
 import { ColourfulText } from "@/components/ui/colourful-text";
 import CountUp from "./ui/CountUp";
-import Carousel from "./ui/Coffee_carousal";
 
 const HeroSection = () => {
   return (
@@ -10,9 +9,8 @@ const HeroSection = () => {
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-5 leading-snug">
           Hello, this is <ColourfulText text="Harshit Yadav" />
         </h1>
-
         <p className="text-sm sm:text-base md:text-lg text-center max-w-4xl text-neutral-700 dark:text-neutral-300">
-          Hi, I'm Harshit Yadav — a 4th semester Computer Science and Design
+          Hi, I'm Harshit Yadav — a 5th semester Computer Science and Design
           student at Madhav Institute of Technology and Science (MITS), Gwalior.
           I'm passionate about tech, especially web development, and I love
           bringing creative ideas to life through code. When I’m not coding or
@@ -50,11 +48,10 @@ const HeroSection = () => {
                 direction="up"
                 duration={1}
                 className="count-up-text"
-              />+
+              />
+              +
             </span>
-            <span className="text-zinc-600">
-              Major projects completed
-            </span>
+            <span className="text-zinc-600">Major projects completed</span>
           </div>
         </div>
       </div>
