@@ -13,31 +13,31 @@ const skillset = () => {
           Showcasing My <ContainerTextFlip words={["Craft", "Work"]} />
         </div>
       </div>
-      <div className="grid mt-10 h-full px-4">
+      <div className="grid mt-10 h-full px-4 ml-10  ">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-auto px-4">
           {FeaturedProjects.map((i) =>
             i.isFeatured ? (
               <BackgroundGradient
                 key={i.id}
-                className="rounded-[22px] max-w-sm w-full p-4 sm:p-10 bg-white dark:bg-zinc-900"
+                className="rounded-[22px] h-full p-4 sm:p-10  bg-white dark:bg-zinc-900"
               >
                 <div className="w-full min-h-[35rem] ">
                   <img
                     src={i.projectImage}
                     alt="projectImage"
-                    className="rounded-[22px] mb-3 "
+                    className="rounded-[22px] mb-"
                   />
-                  <p className="text-center mb-3 font-semibold pt-1 ">
+                  <p className="text-center text-xl mb-3 font-semibold pt-1 ">
                     {i.projectName}
                   </p>
-                  <div className="mb-3">
-                    <div className="handel flex gap-2 flex-wrap mb-2">
-                      <span className="font-bold">Tech used :</span>
+                  <div className="mb-">
+                    <div className="handel flex gap-2 flex-wrap mb-1 text-center">
+                      <span className="font-bold text-lg ">Tech used :</span>
                       {i.TechUsed.map((j, index) => {
                         return (
                           <div
                             key={index}
-                            className="badge badge-outline badge-accent   "
+                            className="badge text-[#00e6e6] border-1 mr-1 rounded-xl p-1 badge-outline badge-success"
                           >
                             {j}
                           </div>
@@ -45,22 +45,22 @@ const skillset = () => {
                       })}
                     </div>
                   </div>
-                  <p className="mb-3">
-                    <span className="font-bold">Description :</span>{" "}
-                    <span>{i.description}</span>
+                  <p className="mb-">
+                    <span className="font-bold text-lg  ">Description :</span>{" "}
+                    <span className="text-xl">{i.description}</span>
                   </p>
                   <p>
-                    <span className="font-bold ">Live on :</span>{" "}
-                    <Link href={i.LiveOn} className="text-blue-500 ">
+                    <span className="font-bold text-lg">Live on :</span>{" "}
+                    <Link href={i.LiveOn} className="text-blue-500 text-lg ">
                       click to view
                     </Link>
                   </p>
-                  <div className="flex justify-center sticky top-0 mt-7">
+                  <div className="flex justify-center sticky top-0 ">
                     <Link href={i.githubLink}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="35"
-                        height="35"
+                        width="40"
+                        height="40"
                         fill="currentColor"
                         className="bi bi-github mt-4 hover:scale-110 transition-transform  "
                         viewBox="0 0 16 16"
