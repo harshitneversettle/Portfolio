@@ -4,7 +4,15 @@
       "id": 1,
       "projectName": "Mentors Connect",
       "projectImage": "/Mentors-connect.png",
-      "TechUsed": ["React", "Node.js", "Express.js" , "MongoDB" , "Socket.io" , "Gemini Api" , "Calandely Api" ],
+      "TechUsed": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+        "Gemini Api",
+        "Calandely Api"
+      ],
       "description": "Mentors Connect is a platform designed to bridge the gap between aspiring learners and experienced mentors.",
       "githubLink": "https://github.com/harshitneversettle/Mentors_connect",
       "LiveOn": "https://mentors-connect.vercel.app",
@@ -14,8 +22,14 @@
       "id": 2,
       "projectName": "Seven-spices (e-commerce) ",
       "projectImage": "/Seven-spices.png  ",
-      "TechUsed": ["React.js", "MongoDB", "Node.js", "Tailwind CSS" , "Express.js"],
-      "description": "Full-stack online store with product listing, cart, and payment integration.",
+      "TechUsed": [
+        "React.js",
+        "MongoDB",
+        "Node.js",
+        "Tailwind CSS",
+        "Express.js"
+      ],
+      "description": "Full-stack online store with product listing, cart, and payment integration. This project is built using MERN",
       "githubLink": "https://github.com/harshitneversettle/Full_stack_project",
       "LiveOn": "https://seven-spices.vercel.app/",
       "isFeatured": true
@@ -24,7 +38,7 @@
       "id": 3,
       "projectName": "Portfolio",
       "projectImage": "/portfolio.png",
-      "TechUsed": ["Next.js" , "MongoDB" , "ShadCn" , "ReactBits" , "DaisyUi"],
+      "TechUsed": ["Next.js", "MongoDB", "ShadCn", "ReactBits", "DaisyUi"],
       "description": "My personal portfolio for showcasing my projects.",
       "githubLink": "https://github.com/harshitneversettle/Portfolio",
       "LiveOn": "https://github.com/harshitneversettle/Portfolio",
@@ -50,6 +64,5 @@
       "LiveOn": "",
       "isFeatured": true
     }
-    
   ]
 }
