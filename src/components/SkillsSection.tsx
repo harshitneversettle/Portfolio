@@ -1,5 +1,5 @@
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
-import { FaPython, FaNodeJs } from "react-icons/fa";
+import { FaPython, FaNodeJs, FaCode } from "react-icons/fa";
 
 import {
   FaReact,
@@ -32,7 +32,7 @@ function SkillsSection() {
         </div>
 
         <div className="flex gap-20 flex-wrap text-center ml-10 -mt-15 ">
-          <div className="w-100 Languages border-1 p-5 rounded-4xl ">
+          <div className="w-108 Languages border-1 p-5 rounded-4xl ">
             <h1 className="text-4xl ">Languages</h1>
             <div className="flex flex-wrap gap-13 pt-10 ml-7 ">
               <div className="text-center">
@@ -68,7 +68,7 @@ function SkillsSection() {
             </div>
           </div>
 
-          <div className="Frameworks w-100 border-1 rounded-4xl p-5">
+          <div className="Frameworks w-108 border-1 rounded-4xl p-5">
             <h1 className="text-4xl">Frameworks</h1>
 
             <div className="text-center flex flex-wrap gap-13 pt-10 ml-7">
@@ -93,11 +93,19 @@ function SkillsSection() {
                 />
                 <span className="text-2xl">Mongoose</span>
               </div>
+              <div className="text-center">
+                <img
+                  src="/sol.png"
+                  alt="Anchor Framework"
+                  className="w-14 h-14 m-auto"
+                />
+                <p className="text-center text-2xl mt-1">Anchor</p>
+              </div>
             </div>
           </div>
 
-          <div className="w-120 border-1 rounded-4xl p-5 mr-4">
-            <h1 className="text-4xl">Platform / Database / Tools</h1>
+          <div className="w-108 border-1 rounded-4xl p-5 mr-4">
+            <h1 className="text-4xl">Database / Tools</h1>
             <div className="flex flex-wrap gap-13 mt-10 ml-7">
               <div className="text-center">
                 <FaNodeJs className="text-green-600 text-6xl m-auto" />{" "}
