@@ -3,9 +3,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { Transition } from "framer-motion";
 
-
-
-const transition : Transition = {
+const transition: Transition = {
   type: "spring",
   mass: 0.5,
   damping: 11.5,
@@ -29,7 +27,8 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white "   >
+        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white "
+      >
         {item}
       </motion.p>
       {active !== null && (
