@@ -8,12 +8,10 @@ const skillset = () => {
   return (
     <div className="w-full mt-20 sm:mt-30 lg:mt-50">
       <div className="text-center px-4">
-        <h1 className="text-lg sm:text-xl lg:text-3xl text-green-500">
+        <h1 className="text-7xl font-bold text-[#0EAC78] font-['Fredoka'] mb-20">
           Proof of Work
         </h1>
-        <div className="text-2xl sm:text-3xl lg:text-4xl mt-2">
-          Showcasing My <ContainerTextFlip words={["Craft", "Work"]} />
-        </div>
+            
       </div>
       <div className="grid mt-6 sm:mt-8 lg:mt-10 h-full px-2 sm:px-4 lg:ml-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 m-auto px-2 sm:px-4 max-w-8xl">
@@ -27,11 +25,11 @@ const skillset = () => {
                   <img
                     src={i.projectImage}
                     alt="projectImage"
-                    className="rounded-[22px] mb-3 sm:mb-4 w-full h-40 sm:h-48 lg:h-auto object-cover"
+                    className="rounded-[22px] border-2 border-black mb-3 sm:mb-4 w-full h-40 sm:h-48 lg:h-auto object-cover"
                   />
-                  <p className="text-center text-lg sm:text-xl mb-2 sm:mb-3 font-semibold pt-1">
+                  <h1 className="text-center font-['Fredoka'] text-2xl  mb-4  font-semibold pt-1">
                     {i.projectName}
-                  </p>
+                  </h1>
                   <div className="mb-2 sm:mb-3">
                     <div className="handel flex gap-1 sm:gap-2 flex-wrap mb-1 text-center">
                       <span className="font-bold text-sm sm:text-base lg:text-lg">
@@ -41,7 +39,7 @@ const skillset = () => {
                         return (
                           <div
                             key={index}
-                            className="badge text-xs sm:text-sm text-[#00e6e6] border-1 mr-1 rounded-xl p-1 badge-outline badge-success"
+                            className="badge text-sm text-[#00e6e6] border-1 mr-1 rounded-xl p-1 badge-outline badge-success"
                           >
                             {j}
                           </div>
@@ -50,10 +48,10 @@ const skillset = () => {
                     </div>
                   </div>
                   <p className="mb-2 sm:mb-3 text-sm sm:text-base">
-                    <span className="font-bold text-sm sm:text-base lg:text-lg">
+                    <span className="font-bold  text-sm sm:text-base lg:text-lg">
                       Description :
                     </span>{" "}
-                    <span className="text-sm sm:text-base lg:text-xl">
+                    <span className="text-sm font-['Fredoka'] sm:text-base lg:text-xl">
                       {i.description}
                     </span>
                   </p>

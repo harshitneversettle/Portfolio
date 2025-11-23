@@ -24,7 +24,7 @@ function SkillsSection() {
   return (
     <div className="">
       <div className="min-h-screen lg:h-[70rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden px-4 py-8 lg:py-0">
-        <h1 className="text-3xl sm:text-4xl lg:text-6xl text-center lg:ml-14 lg:-mt-15 mb-8 lg:mb-0">
+        <h1 className=" text-7xl font-bold text-[#0EAC78] font-['Fredoka'] text-center">
           Skills
         </h1>
         <div className="w-64 sm:w-80 lg:w-[32rem] h-20 lg:h-40 relative mb-8 lg:mb-0">

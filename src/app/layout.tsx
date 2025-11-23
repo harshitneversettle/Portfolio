@@ -3,6 +3,14 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ZoomWrapper from "./zoom-wrapper";
 import './globals.css';
+import { Fredoka } from "next/font/google";
+
+export const fredoka = Fredoka({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-fredoka",
+});
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,11 +34,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <ZoomWrapper>{children}</ZoomWrapper>
-      </body>
+<body className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased`}>
+  <ZoomWrapper>{children}</ZoomWrapper>
+</body>
+
     </html>
   );
 }

@@ -1,7 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,ts,jsx,tsx}', // Include all src files
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  plugins: [require('daisyui')], // Add DaisyUI plugin
+  plugins: [require("daisyui")],
+
+  theme: {
+    extend: {
+      fontFamily: {
+        fredoka: ["var(--font-fredoka)"],
+      },
+    },
+  },
 };
