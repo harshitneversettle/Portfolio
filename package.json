@@ -13,6 +13,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@google/generative-ai": "^0.24.1",
     "@huggingface/inference": "^4.13.3",
     "@radix-ui/react-label": "^2.1.7",
     "@react-three/drei": "^10.0.8",
@@ -34,6 +35,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
     "tailwind-merge": "^3.4.0",
     "three-globe": "^2.42.4"
   },
