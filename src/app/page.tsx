@@ -20,8 +20,13 @@ export default function Home() {
       <Skillset />
       <SkillsSection />
       <ContactForm />  
-      <RiRobot3Fill  onClick={() => router.push("/chatbot")} className="fixed bottom-6 right-6 text-7xl p-3 bg rounded-full cursor-pointer shadow-lg" />
-
+<button
+        onClick={() => router.push("/chatbot")}
+        className="fixed bottom-6 right-6 animate-bounce z-50 hover:bg-[gray-600] text-white p-4  transition-all duration-100 hover:scale-110 active:scale-95 "
+        aria-label="Open chatbot"
+      >
+        <RiRobot3Fill className="text-5xl" />
+      </button>
     </>
   );
 }

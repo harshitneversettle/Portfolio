@@ -2,19 +2,14 @@
   "Projects": [
     {
       "id": 1,
-      "projectName": "Decentralized Lending and borrowing",
+      "projectName": "SolEase : Built on Solana",
       "projectImage": "/Mentors-connect.png",
-      "TechUsed": [
-        "Rust",
-        "Anchor",
-        "Typescript" ,
-        "React" 
-      ],
+      "TechUsed": ["Rust", "Anchor", "Typescript", "React", "Mocha"],
       "description": "Solana-based decentralized lend and borrow platform enabling users to securely lend assets, borrow funds with collateral, and earn interest without intermediaries.",
-      "githubLink": "https://github.com/solana-turbin3/Q4_25_Builder_HarshitYadav/tree/main/Capstone_harshit",
-      "LiveOn": "Yet to be deployed",
+      "githubLink": "https://github.com/harshitneversettle/SolEase",
+      "LiveOn": "https://github.com/harshitneversettle/SolEase/blob/main/Readme.md",
       "isFeatured": true
-    } ,
+    },
     {
       "id": 2,
       "projectName": "Mentors Connect",

@@ -17,6 +17,7 @@ const skillset = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 m-auto px-2 sm:px-4 max-w-8xl">
           {FeaturedProjects.map((i) =>
             i.isFeatured ? (
+              
               <BackgroundGradient
                 key={i.id}
                 className="rounded-[22px] h-full p-3 sm:p-6 lg:p-10 bg-white dark:bg-zinc-900"
