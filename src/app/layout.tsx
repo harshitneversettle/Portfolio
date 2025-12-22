@@ -24,6 +24,8 @@ export const metadata: Metadata = {
   description: "My portfolio website",
 };
 
+import RobotButton from "@/components/RobotButton";
+
 export default function RootLayout({
   children,
 }: {
@@ -31,8 +33,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased`}>
-        <ZoomWrapper>{children}</ZoomWrapper>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased`}
+      >
+        {children}
       </body>
     </html>
   );

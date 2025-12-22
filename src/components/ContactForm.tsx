@@ -14,7 +14,7 @@ export function ContactForm() {
 
   return (
     <>
-      <div className="flex flex-col lg:flex-row gap-6 w-full ml-20">
+      <div className="flex flex-col lg:flex-row gap-6 w-full ">
         <div className="shadow-input w-full lg:max-w-md rounded-none bg-white mx-auto p-4 md:rounded-2xl md:p-8 dark:bg-black">
           <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200">
             Contact Me
