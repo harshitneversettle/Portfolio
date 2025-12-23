@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Fredoka } from "next/font/google";
-import "./globals.css";
-import ZoomWrapper from "./zoom-wrapper";
+
 
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -23,8 +22,6 @@ export const metadata: Metadata = {
   title: "Portfolio",
   description: "My portfolio website",
 };
-
-import RobotButton from "@/components/RobotButton";
 
 export default function RootLayout({
   children,
